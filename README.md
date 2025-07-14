@@ -22,8 +22,8 @@ To build a predictive model using supervised machine learning that accurately cl
 
 ## 📂 Dataset
 
-- 📁 **Name:** Breast Cancer Wisconsin Diagnostic Dataset  
-- 📌 **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic))  
+- 📁 **Name:** Breast Cancer Survival  
+- 📌 **Source:** [21239_breast_cancer_survival.csv]  
 - 🔢 **Features:**  
     - Radius, Texture, Perimeter, Area, Smoothness, etc.  
     - Target label: `0 = malignant`, `1 = benign`
