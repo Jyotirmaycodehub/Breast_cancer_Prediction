@@ -58,4 +58,5 @@ To build a predictive model using supervised machine learning that accurately cl
 - ✅ **Confusion Matrix** and **Classification Report** generated
 
 ---
-
+👨‍💻 Developer: Jyotirmay
+📧 Email: [jyotirmay1999das@gmail.com]
