@@ -1,62 +1,73 @@
-# 🔍 Breast Cancer Prediction using Machine Learning
+# 🔬 Breast Cancer Prediction using Machine Learning
 
-This project is a machine learning application for predicting breast cancer based on input medical features. It uses a trained ML model to classify whether a tumor is **benign** or **malignant**, helping in early diagnosis.
+Welcome to our **Team ML Project** where we tackle one of the most critical medical challenges—**breast cancer detection**. This predictive model uses **Random Forest Classifier** on clinical data to classify tumors as **benign** or **malignant**.
 
----
-
-## 💡 Objective
-
-To build a predictive model using supervised machine learning that accurately classifies tumors based on the given data features.
+> 🎯 **Goal:** Empower early diagnosis through machine learning and data analysis.
 
 ---
 
-## 🧠 Tech Stack
+## 👥 Meet the Team
 
-- 🐍 **Python 3.x**
-- 📊 **Pandas** – Data manipulation
-- 📈 **Matplotlib / Seaborn** – Data visualization
-- 🤖 **Scikit-learn** – ML algorithms and model training
-- 📚 **Jupyter Notebook** – For development and visualization
+| Name             | Role              |
+|------------------|-------------------|
+| Jyotirmay Das      | **Team Leader & Data Preprocessing & Visualization** 🧠✨ |
+| Ipsita Maji         |Data modeling and ML pipelining |
+| Jannutul Bushra        | Evaluation & Metrics |
+| Shamindra Das        | Documentation & Reporting |
+| Sayan Kumer Chowbey        | Deployment Planning / GUI Ideas |
+
+---
+
+## 🧠 Tools & Technologies
+
+- 🐍 Python 3.x  
+- 🧺 Pandas, NumPy – Data handling  
+- 📊 Matplotlib, Seaborn – Visualizations  
+- 🤖 Scikit-learn – ML modeling & evaluation  
+- 📁 Jupyter Notebook – Workflow presentation
 
 ---
 
 ## 📂 Dataset
 
-- 📁 **Name:** Breast Cancer Survival  
-- 📌 **Source:** [21239_breast_cancer_survival.csv]  
-- 🔢 **Features:**  
-    - Radius, Texture, Perimeter, Area, Smoothness, etc.  
-    - Target label: `0 = malignant`, `1 = benign`
+- **Source:** [Scikit-learn Breast Cancer Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)  
+- **Target Variable:**  
+  - `0`: Malignant (cancerous)  
+  - `1`: Benign (non-cancerous)
 
 ---
 
-## 🚀 Project Workflow
+## 🔍 Workflow Summary
 
-1. **Data Cleaning & Preprocessing**
-    - Null value check
-    - Label encoding
-    - Feature scaling (if needed)
-2. **Exploratory Data Analysis**
-    - Correlation matrix
-    - Histograms, scatter plots
-3. **Model Training**
-    - Train/test split
-    - Applied models: Logistic Regression, Random Forest, etc.
-4. **Evaluation**
-    - Confusion matrix
-    - Accuracy, precision, recall, F1-score
-5. **Prediction**
-    - Final model for prediction
-    - [Optional]: GUI using Streamlit or Web API using Flask
+### 🔹 Data Preprocessing
+- Checked for nulls & duplicates
+- Outlier detection on `mean perimeter` using IQR
+- Cleaned data for optimal modeling
+
+### 🔹 Feature Engineering
+- Feature scaling via `StandardScaler`
+- Train/Test split (80/20)
+
+### 🔹 Model Training
+- Model: `RandomForestClassifier(n_estimators=100, random_state=42)`
+- Trained on scaled data
+- Prediction & probability scoring
+
+### 🔹 Model Evaluation
+- ✅ Accuracy: ~95%  
+- 📉 Confusion Matrix  
+- 📈 ROC-AUC Curve  
+- 🧾 Classification Report
+
+---
+
+## 📊 Visual Insights
+
+- 📦 Boxplot to detect outliers
+- 🧬 ROC Curve: Shows model sensitivity
+- 💡 Classification report for precision, recall & F1-score
 
 ---
 
-## 📊 Results
-
-- ✅ **Accuracy:** ~95%+ (depending on model)  
-- ✅ **Precision & Recall:** Balanced results for benign/malignant  
-- ✅ **Confusion Matrix** and **Classification Report** generated
-
----
 👨‍💻 Developer: Jyotirmay
 📧 Email: [jyotirmay1999das@gmail.com]
